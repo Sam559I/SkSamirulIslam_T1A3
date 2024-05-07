@@ -5,40 +5,12 @@ This Python script implements a terminal-based grocery tracking application.
 Users can display current stock, search for specific products, order groceries, track
 expired perishable food items, and compare prices.
 
-Author: 
-Date:
-
 """
 
-import csv
-import datetime
+from function import load_grocery_items,display_current_stock
 
 # Global variable to store grocery items
 grocery_items = []
-
-# Function to load grocery items 
-def load_grocery_items():
-    global grocery_items
-    grocery_items = []
-    with open("src/grocery_items.csv", mode='r') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            grocery_items.append(row)
-
-# Function to add grocery items 
-def write_grocery_items():
-    with open("grocery_items.csv", mode='w', newline='') as file:
-        fieldnames = ["Name", "Category", "Price", "Quantity", "Expiration Date"]
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
-        for item in grocery_items:
-            writer.writerow(item)
-
-# Function to display current stock
-def display_current_stock():
-    print("\nCurrent Stock of Grocery Items:")
-    for item in grocery_items:
-        print(f"{item['Name']}: {item['Quantity']} {item['Category']} - ${item['Price']}")
 
 
 # Main function
@@ -52,11 +24,24 @@ def main():
         print("╚══════════════════════════════════════════════════════════════════════════╝")
         print("Menu Options:")
         print("1. Display Current Stock")
+        print("2. Search for a Product")
+        print("3. Order Groceries")
+        print("4. Track Expired Perishable Food Items")
+        print("5. Price Comparison")
+        print("6. Exit")
         choice = input("Enter your choice: ")
-        if choice == "1":
-            display_current_stock()
-        else:
-            print("Invalid choice. Please try again.")
+        try:
+            if choice == "1":
+                display_current_stock()
+
+            elif choice == "6":
+                print("\nThank you for using the Grocery Tracker App. Goodbye!")
+                break
+            
+        except ValueError:
+            print("Invalid Value. Please try again.")
+        except AttributeError:
+            print("Invalid Attribute. Please try again.")
 
 if __name__ == "__main__":
     main()
