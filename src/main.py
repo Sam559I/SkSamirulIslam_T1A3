@@ -7,7 +7,7 @@ expired perishable food items, and compare prices.
 
 """
 
-from function import load_grocery_items,display_current_stock
+from function import load_grocery_items, display_current_stock, search_product
 
 # Global variable to store grocery items
 grocery_items = []
@@ -31,17 +31,23 @@ def main():
         print("6. Exit")
         choice = input("Enter your choice: ")
         try:
-            if choice == "1":
+            choice = int(choice)
+            if choice == 1:
                 display_current_stock()
-
-            elif choice == "6":
-                print("\nThank you for using the Grocery Tracker App. Goodbye!")
-                break
-            
+            elif choice == 2:
+                product_name = input("Enter the name of the product to search: ")
+                search_product(product_name)
+            elif choice == 6:
+                        print("╔══════════════════════════════════════════════════════════════════════════╗")
+                        print("║                       Thank you for using the Grocery                    ║")
+                        print("║                                Tracker App!                              ║")
+                        print("╚══════════════════════════════════════════════════════════════════════════╝")
+                        break
+            else:
+                print("Invalid choice. Please try again.")
         except ValueError:
-            print("Invalid Value. Please try again.")
-        except AttributeError:
-            print("Invalid Attribute. Please try again.")
+            print("Invalid Value. Please enter a number.")
+        
 
 if __name__ == "__main__":
     main()
