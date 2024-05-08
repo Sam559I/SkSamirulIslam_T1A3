@@ -47,3 +47,17 @@ def search_product(product_name):
             break
     if not found:
         print("\nProduct not found.")
+
+
+def quantity_update_groceries():
+    product_name = input("Enter the name of the product: ")
+    quantity_change = int(
+        input("Enter the quantity to add (positive) or remove (negative): ")
+    )
+    for item in grocery_items:
+        if item["Name"].lower() == product_name.lower():
+            item["Quantity"] = str(int(item["Quantity"]) + quantity_change)
+            write_grocery_items()
+            print("\nQuantity updated successfully.")
+            return
+    print("\nProduct not found.")

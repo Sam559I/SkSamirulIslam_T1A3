@@ -1,0 +1,36 @@
+Name,Category,Price,Quantity,Expiration Date
+Apple,Fruits,4.44,75,06/05/2024
+Banana,Fruits,6.12,30,16/05/2024
+Orange,Fruits,6.43,66,14/11/2026
+Grapes,Fruits,7.58,9,12/02/2025
+Strawberry,Fruits,1.55,46,03/09/2026
+Carrot,Vegetables,9.33,78,18/02/2024
+Broccoli,Vegetables,10,76,27/08/2024
+Sgrocery_itemspinach,Vegetables,9.51,8,08/06/2025
+Tomato,Vegetables,8.84,25,24/02/2025
+Potato,Vegetables,8.7,59,19/05/2024
+Cheese,Dairy,5.44,34,09/07/2024
+Milk,Dairy,3.49,31,15/05/2024
+Yogurt,Dairy,9.5,49,16/6/2024
+Butter,Dairy,4.48,43,15/6/2024
+Eggs,Dairy,9.61,34,23/06/2024
+Chicken,Meat,3.52,2,12/05/2024
+Beef,Meat,7.95,47,02/06/2024
+Pork,Meat,7.17,47,01/07/2024
+Fish,Meat,4.52,82,03/06/2025
+Turkey,Meat,2.93,94,12/11/2024
+Water,Beverages,3.42,92,10/08/2025
+Juice,Beverages,7.47,44,05/11/2024
+Soda,Beverages,6.01,42,20/01/2024
+Tea,Beverages,6.13,73,18/09/2024
+Coffee,Beverages,9.69,49,26/09/2025
+Soup,Canned Goods,7.18,66,28/07/2026
+Beans,Canned Goods,6.41,73,09/02/2026
+Tomato Sauce,Canned Goods,4.13,29,21/11/2025
+Tuna,Canned Goods,0.65,71,10/02/2025
+Corn,Canned Goods,8.34,33,21/01/2026
+Chips,Snacks,5.19,51,09/05/2025
+Cookies,Snacks,6.5,73,04/05/2025
+Nuts,Snacks,4.76,69,05/07/2025
+Popcorn,Snacks,4.11,52,19/10/2026
+Chocolate,Snacks,3.05,42,17/10/2024
