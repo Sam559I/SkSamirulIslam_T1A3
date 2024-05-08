@@ -74,3 +74,23 @@ def display_items_by_category():
             print(f"{item['Name']}: {item['Quantity']} - ${item['Price']}")
     else:
         print("No items found in the specified category.")
+
+
+# Function to track items that will expire in the next  month/ 30 days
+def track_expiring_soon():
+    today = datetime.date.today()
+    one_months_from_now = today + datetime.timedelta(days=30)
+    print("\nItems Expiring in the Next 30 days:")
+    expiring_items = []
+    for item in grocery_items:
+        if "Expiration Date" in item:
+            expiration_date = datetime.datetime.strptime(
+                item["Expiration Date"], "%d/%m/%Y"
+            ).date()
+            if today <= expiration_date <= one_months_from_now:
+                expiring_items.append(item)
+    if expiring_items:
+        for item in expiring_items:
+            print(f"{item['Name']} - Expires on {item['Expiration Date']}")
+    else:
+        print("No items are expiring in the next 6 months.")

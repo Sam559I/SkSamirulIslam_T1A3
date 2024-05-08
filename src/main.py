@@ -12,7 +12,8 @@ from current_stock_function import (
     display_current_stock,
     search_product,
     quantity_update_groceries,
-    display_items_by_category
+    display_items_by_category,
+    track_expiring_soon,
 )
 
 # Main function
@@ -42,18 +43,17 @@ def main():
                 search_product(product_name)
             elif choice == 3:
                 quantity_update_groceries()
+            elif choice == 4:
+                track_expiring_soon()
             elif choice == 6:
                 display_items_by_category()
             elif choice == 7:
-                print("╔══════════════════════════════════════════════════════════════════════════╗")
-                print("║                       Thank you for using the Grocery                    ║")
-                print("║                                Tracker App!                              ║")
-                print("╚══════════════════════════════════════════════════════════════════════════╝")
+                print("\nThank you for using the Grocery Tracker App. Goodbye!")
                 break
             else:
                 print("Invalid choice. Please try again.")
         except ValueError:
-            print("Invalid Value. Please enter a number.")
+            print("Invalid input. Please enter a number.")
 
 
 if __name__ == "__main__":
