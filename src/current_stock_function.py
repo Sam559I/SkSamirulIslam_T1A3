@@ -61,3 +61,16 @@ def quantity_update_groceries():
             print("\nQuantity updated successfully.")
             return
     print("\nProduct not found.")
+
+
+def display_items_by_category():
+    category = input("Enter the category to display items: ").strip().capitalize()
+    print(f"\nGrocery Items in the Category '{category}':")
+    category_items = [
+        item for item in grocery_items if item["Category"].capitalize() == category
+    ]
+    if category_items:
+        for item in category_items:
+            print(f"{item['Name']}: {item['Quantity']} - ${item['Price']}")
+    else:
+        print("No items found in the specified category.")
