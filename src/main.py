@@ -16,6 +16,8 @@ from current_stock_function import (
     track_expiring_soon,
 )
 
+from market_function import place_order
+
 # Main function
 def main():
     load_grocery_items()
@@ -32,7 +34,8 @@ def main():
         print("4. Track Expired Perishable Food Items")
         print("5. Price Comparison")
         print("6. Display Items by Category")
-        print("7. Exit")
+        print("7. Place Order")
+        print("8. Exit")
         choice = input("Enter your choice: ")
         try:
             choice = int(choice)
@@ -48,6 +51,8 @@ def main():
             elif choice == 6:
                 display_items_by_category()
             elif choice == 7:
+                place_order()
+            elif choice == 8:
                 print("\nThank you for using the Grocery Tracker App. Goodbye!")
                 break
             else:
