@@ -12,13 +12,11 @@ Broccoli,Vegetables,5.53,15,24/05/2024
 Eggs,Dairy,1.82,1,20/05/2024
 Fish,Meat,5.67,2,25/05/2024
 Chips,Snacks,5.59,4,04/05/2025
-Beans,Canned Goods,8.99,0,01/07/2025
 Chocolate,Snacks,2.91,3,08/07/2025
 Chicken,Meat,12.3,5,18/06/2024
-Cookies,Snacks,5.4,19,02/01/2024
-Orange,Fruits,3.00,64,28/04/2024
+Orange,Fruits,3.00,10,28/04/2024
 Cookies,Snacks,6.24,12,05/04/2024
-Beans,Canned Goods,6.73,68,14/01/2024
+Beans,Canned Goods,6.73,10,14/01/2024
 Juice,Beverages,8.22,14,04/12/2025
 Nuts,Snacks,4.43,25,03/07/2026
 Fish,Meat,8.47,88,19/06/2026
@@ -61,7 +59,6 @@ Soda,Beverages,0.58,43,01/09/2024
 Butter,Dairy,4.93,18,28/05/2024
 Broccoli,Vegetables,3.78,52,27/10/2026
 Orange,Fruits,7.72,43,28/01/2024
-Chicken,Meat,9.19,20,01/11/2026
 Pork,Meat,6.8,71,24/09/2024
 Apple,Fruits,9.14,88,11/11/2025
 Pork,Meat,6.08,63,24/09/2025
@@ -100,23 +97,18 @@ Butter,Dairy,9.9,60,10/01/2024
 Tuna,Canned Goods,9.26,2,15/01/2026
 Chips,Snacks,4.51,59,12/10/2024
 Spinach,Vegetables,0.8,21,28/05/2024
-Corn,Canned Goods,2.35,27,03/08/2026
 Soda,Beverages,6.8,67,13/03/2026
 Cookies,Snacks,5.94,29,05/03/2026
 Strawberry,Fruits,5.87,70,13/05/2026
 Apple,Fruits,4.18,51,14/11/2026
 Grapes,Fruits,1.84,59,25/02/2025
 Fish,Meat,1.73,18,16/09/2025
-Fish,Meat,8.67,95,20/01/2024
 Tea,Beverages,5.66,72,05/02/2024
 Chips,Snacks,8.11,6,04/06/2024
 Butter,Dairy,8.66,60,14/06/2026
 Water,Beverages,8.91,38,20/04/2026
 Juice,Beverages,2.12,60,27/04/2025
 Beef,Meat,2.96,34,06/02/2024
-Chicken,Meat,2.16,83,21/08/2025
-Chicken,Meat,0.52,86,16/08/2026
-Cookies,Snacks,7.06,20,04/10/2025
 Cookies,Snacks,6.23,9,06/03/2026
 Cheese,Dairy,2.42,34,25/05/2025
 Cookies,Snacks,6.29,28,05/12/2026
@@ -131,7 +123,6 @@ Banana,Fruits,8.7,41,10/07/2025
 Soup,Canned Goods,7.68,30,25/04/2025
 Corn,Canned Goods,9,58,04/05/2026
 Potato,Vegetables,9.93,22,27/08/2024
-Tomato,Vegetables,9.02,23,23/07/2025
 Juice,Beverages,9.7,51,08/07/2026
 Tomato,Vegetables,8.29,95,08/03/2024
 Cookies,Snacks,9.89,41,04/08/2025
@@ -151,7 +142,6 @@ Chips,Snacks,6.38,23,24/11/2026
 Tomato Sauce,Canned Goods,7.31,96,03/02/2024
 Corn,Canned Goods,0.76,1,17/10/2024
 Pork,Meat,5.53,97,18/02/2025
-Pork,Meat,7.83,10,20/03/2025
 Chocolate,Snacks,8.5,33,27/11/2025
 Broccoli,Vegetables,3.97,23,05/09/2025
 Soup,Canned Goods,3.57,36,17/03/2025
