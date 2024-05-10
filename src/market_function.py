@@ -1,11 +1,12 @@
 from current_stock_function import write_grocery_items
 import csv
+import 
 
 # Global variable to store grocery items
 grocery_items = []
 
 
-# Function to add or adjust quantities of items
+# Function to place an order
 def place_order():
     global grocery_items
     total_cost = 0
@@ -38,7 +39,3 @@ def place_order():
 
     # Write updated grocery items to CSV
     write_grocery_items()
-
-    print(
-        f"\nTotal cost of the order from Marketplace {marketplace_number}: ${total_cost:.2f}"
-    )

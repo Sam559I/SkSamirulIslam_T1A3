@@ -18,7 +18,7 @@ from current_stock_function import (
 
 from market_function import place_order
 
-# Main function
+# Main function 
 def main():
     load_grocery_items()
     while True:
