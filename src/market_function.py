@@ -1,6 +1,5 @@
 from current_stock_function import write_grocery_items
 import csv
-import 
 
 # Global variable to store grocery items
 grocery_items = []

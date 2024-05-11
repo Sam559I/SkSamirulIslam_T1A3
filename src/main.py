@@ -6,6 +6,7 @@ Users can display current stock, search for specific products, order groceries, 
 expired perishable food items, and compare prices.
 
 """
+from market_function import place_order
 
 from current_stock_function import (
     load_grocery_items,
@@ -15,8 +16,6 @@ from current_stock_function import (
     display_items_by_category,
     track_expiring_soon,
 )
-
-from market_function import place_order
 
 # Main function 
 def main():
