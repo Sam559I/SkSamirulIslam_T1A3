@@ -38,3 +38,46 @@ def place_order():
 
     # Write updated grocery items to CSV
     write_grocery_items()
+
+
+def compare_prices_for_product():
+    global grocery_items
+
+    product_name = input("Enter the name of the product to compare prices: ")
+
+    marketplace1 = "Marketplace-1.csv"
+    marketplace2 = "Marketplace-2.csv"
+    marketplace3 = "Marketplace-3.csv"
+
+    marketplace_prices1 = {}
+    marketplace_prices2 = {}
+    marketplace_prices3 = {}
+
+    with open(marketplace1, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices1[row["Name"]] = float(row["Price"])
+
+    with open(marketplace2, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices2[row["Name"]] = float(row["Price"])
+
+    with open(marketplace3, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices3[row["Name"]] = float(row["Price"])
+
+    print(f"\nPrice Comparison for '{product_name}' with Marketplaces:")
+    for item in grocery_items:
+        if item["Name"].lower() == product_name.lower():
+            price1 = marketplace_prices1.get(item["Name"], "Not Available")
+            price2 = marketplace_prices2.get(item["Name"], "Not Available")
+            price3 = marketplace_prices3.get(item["Name"], "Not Available")
+
+            print(
+                f"{item['Name']}: Our Price - ${item['Price']} | Marketplace 1 Price - ${price1} | Marketplace 2 Price - ${price2} | Marketplace 3 Price - ${price3}"
+            )
+            return
+
+    print(f"No product named '{product_name}' found in the current stock.")

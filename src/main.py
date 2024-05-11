@@ -6,8 +6,8 @@ Users can display current stock, search for specific products, order groceries, 
 expired perishable food items, and compare prices.
 
 """
-from market_function import place_order
-
+from market_function import place_order 
+import csv
 from current_stock_function import (
     load_grocery_items,
     display_current_stock,
@@ -17,7 +17,52 @@ from current_stock_function import (
     track_expiring_soon,
 )
 
-# Main function 
+grocery_items = []
+
+def compare_prices_for_product():
+    global grocery_items
+
+    product_name = input("Enter the name of the product to compare prices: ")
+
+    marketplace1 = "Marketplace-1.csv"
+    marketplace2 = "Marketplace-2.csv"
+    marketplace3 = "Marketplace-3.csv"
+
+    marketplace_prices1 = {}
+    marketplace_prices2 = {}
+    marketplace_prices3 = {}
+
+    with open(marketplace1, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices1[row["Name"]] = float(row["Price"])
+
+    with open(marketplace2, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices2[row["Name"]] = float(row["Price"])
+
+    with open(marketplace3, mode="r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            marketplace_prices3[row["Name"]] = float(row["Price"])
+
+    print(f"\nPrice Comparison for '{product_name}' with Marketplaces:")
+    for item in grocery_items:
+        if item["Name"].lower() == product_name.lower():
+            price1 = marketplace_prices1.get(item["Name"], "Not Available")
+            price2 = marketplace_prices2.get(item["Name"], "Not Available")
+            price3 = marketplace_prices3.get(item["Name"], "Not Available")
+
+            print(
+                f"{item['Name']}: Our Price - ${item['Price']} | Marketplace 1 Price - ${price1} | Marketplace 2 Price - ${price2} | Marketplace 3 Price - ${price3}"
+            )
+            return
+
+    print(f"No product named '{product_name}' found in the current stock.")
+
+
+# Main function
 def main():
     load_grocery_items()
     while True:
@@ -47,6 +92,8 @@ def main():
                 quantity_update_groceries()
             elif choice == 4:
                 track_expiring_soon()
+            elif choice == 5:
+                compare_prices_for_product()
             elif choice == 6:
                 display_items_by_category()
             elif choice == 7:
