@@ -23,7 +23,7 @@ def load_grocery_items():
 
 def write_grocery_items():
     with open("grocery_items.csv", mode="w", newline="") as file:
-        fieldnames = ["Name", "Category", "Price", "Quantity", "Expiration Date"]
+        fieldnames = ["Name", "Category", "Quantity", "Expiration Date"]
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         for item in grocery_items:

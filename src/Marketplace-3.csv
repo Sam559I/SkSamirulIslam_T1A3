@@ -1,201 +1,201 @@
-Name         ,Category     ,Price ,Quantity ,Expiration Date
-Pork         ,Meat         , 3.44 ,       8 ,2026-01-16
-Banana       ,Fruits       , 5.69 ,      79 ,2025-12-05
-Potato       ,Vegetables   , 8.13 ,      10 ,2026-01-28
-Orange       ,Fruits       , 0.91 ,      45 ,2026-10-26
-Yogurt       ,Dairy        , 2.92 ,      59 ,2026-07-27
-Soup         ,Canned Goods , 1.02 ,       4 ,2026-11-10
-Tuna         ,Canned Goods , 9.6  ,      92 ,2026-02-28
-Chocolate    ,Snacks       , 1.33 ,      56 ,2026-06-11
-Broccoli     ,Vegetables   , 2.0  ,      21 ,2025-09-12
-Carrot       ,Vegetables   , 8.19 ,      52 ,2026-11-12
-Tomato Sauce ,Canned Goods , 6.15 ,      60 ,2025-07-18
-Coffee       ,Beverages    , 6.55 ,      45 ,2026-12-20
-Beef         ,Meat         , 2.12 ,      46 ,2025-01-14
-Fish         ,Meat         , 5.55 ,      26 ,2026-05-15
-Orange       ,Fruits       , 0.58 ,      83 ,2026-05-12
-Banana       ,Fruits       , 8.15 ,       1 ,2026-03-24
-Spinach      ,Vegetables   , 3.02 ,      36 ,2025-04-27
-Butter       ,Dairy        , 7.07 ,      91 ,2025-03-21
-Corn         ,Canned Goods , 8.34 ,      30 ,2026-07-21
-Pork         ,Meat         , 6.44 ,      27 ,2024-02-22
-Cheese       ,Dairy        , 4.19 ,      82 ,2025-06-04
-Chicken      ,Meat         , 4.67 ,      89 ,2026-01-06
-Fish         ,Meat         , 5.16 ,      81 ,2024-11-11
-Spinach      ,Vegetables   , 8.47 ,      82 ,2025-10-24
-Soup         ,Canned Goods , 7.95 ,      97 ,2025-01-25
-Beans        ,Canned Goods , 9.72 ,      35 ,2025-01-12
-Broccoli     ,Vegetables   , 5.23 ,      15 ,2026-04-10
-Eggs         ,Dairy        , 8.36 ,      25 ,2026-05-24
-Coffee       ,Beverages    , 6.48 ,      87 ,2025-12-06
-Coffee       ,Beverages    , 2.58 ,      26 ,2026-05-24
-Yogurt       ,Dairy        , 4.21 ,      29 ,2026-09-23
-Chicken      ,Meat         , 0.49 ,      87 ,2025-08-08
-Pork         ,Meat         , 7.86 ,      30 ,2025-12-16
-Pork         ,Meat         , 8.0  ,      79 ,2024-07-14
-Juice        ,Beverages    , 9.04 ,      77 ,2026-02-17
-Tuna         ,Canned Goods , 0.7  ,      62 ,2025-08-13
-Nuts         ,Snacks       , 1.33 ,      39 ,2024-12-08
-Orange       ,Fruits       , 0.95 ,      55 ,2025-03-10
-Nuts         ,Snacks       , 2.75 ,      98 ,2026-05-16
-Butter       ,Dairy        , 9.19 ,      86 ,2024-10-22
-Tea          ,Beverages    , 8.37 ,      87 ,2025-07-14
-Tuna         ,Canned Goods , 1.87 ,      25 ,2026-07-24
-Chips        ,Snacks       , 4.24 ,      31 ,2025-09-09
-Orange       ,Fruits       , 1.92 ,      58 ,2024-04-28
-Chocolate    ,Snacks       , 7.28 ,      69 ,2025-02-03
-Chocolate    ,Snacks       , 2.17 ,      58 ,2026-05-09
-Pork         ,Meat         , 1.47 ,      88 ,2026-10-13
-Potato       ,Vegetables   , 8.38 ,      70 ,2025-02-12
-Cheese       ,Dairy        , 5.26 ,      80 ,2026-06-25
-Banana       ,Fruits       , 2.81 ,      13 ,2026-05-11
-Soda         ,Beverages    , 6.02 ,      73 ,2026-11-09
-Tomato Sauce ,Canned Goods , 0.75 ,      10 ,2026-01-17
-Fish         ,Meat         , 9.65 ,       4 ,2026-10-14
-Tomato Sauce ,Canned Goods , 6.09 ,      22 ,2026-06-19
-Eggs         ,Dairy        , 0.54 ,      28 ,2026-03-08
-Grapes       ,Fruits       , 1.2  ,      99 ,2025-11-11
-Popcorn      ,Snacks       , 5.0  ,      22 ,2026-03-21
-Chicken      ,Meat         , 1.97 ,      22 ,2025-06-03
-Chocolate    ,Snacks       , 9.87 ,      54 ,2024-02-16
-Tomato Sauce ,Canned Goods , 9.76 ,      16 ,2025-06-24
-Eggs         ,Dairy        , 5.27 ,      85 ,2024-07-28
-Potato       ,Vegetables   , 9.88 ,      29 ,2025-07-27
-Tuna         ,Canned Goods , 1.26 ,      27 ,2025-02-06
-Fish         ,Meat         , 5.41 ,      51 ,2026-05-26
-Cookies      ,Snacks       , 0.9  ,      65 ,2026-02-04
-Broccoli     ,Vegetables   , 1.99 ,      95 ,2024-03-11
-Beef         ,Meat         , 5.38 ,      90 ,2026-02-25
-Yogurt       ,Dairy        , 4.6  ,      28 ,2026-12-26
-Fish         ,Meat         , 9.37 ,      59 ,2026-02-09
-Tea          ,Beverages    , 2.01 ,      65 ,2025-12-24
-Juice        ,Beverages    , 6.54 ,      43 ,2024-08-19
-Coffee       ,Beverages    , 8.67 ,      80 ,2025-10-07
-Beef         ,Meat         , 9.92 ,      34 ,2024-02-13
-Fish         ,Meat         , 7.28 ,      59 ,2025-06-17
-Water        ,Beverages    , 4.55 ,      62 ,2024-06-09
-Fish         ,Meat         , 6.36 ,      63 ,2024-04-13
-Chips        ,Snacks       , 1.21 ,      42 ,2024-02-21
-Chocolate    ,Snacks       , 5.03 ,      19 ,2025-12-23
-Tuna         ,Canned Goods , 7.84 ,      95 ,2025-02-18
-Spinach      ,Vegetables   , 6.83 ,      45 ,2024-04-08
-Tomato       ,Vegetables   , 5.15 ,      65 ,2025-04-17
-Eggs         ,Dairy        , 0.94 ,      50 ,2025-06-26
-Milk         ,Dairy        , 2.7  ,       9 ,2025-04-23
-Eggs         ,Dairy        , 3.08 ,      83 ,2025-06-15
-Yogurt       ,Dairy        , 6.84 ,      69 ,2026-01-07
-Tomato Sauce ,Canned Goods , 2.94 ,      76 ,2025-07-03
-Soup         ,Canned Goods , 4.17 ,      97 ,2024-07-05
-Coffee       ,Beverages    , 5.85 ,       3 ,2024-04-28
-Banana       ,Fruits       , 6.3  ,      68 ,2024-05-14
-Tea          ,Beverages    , 5.62 ,      90 ,2025-05-05
-Butter       ,Dairy        , 2.64 ,      98 ,2026-10-19
-Cheese       ,Dairy        , 2.35 ,      86 ,2026-03-20
-Turkey       ,Meat         , 4.9  ,      21 ,2024-02-11
-Juice        ,Beverages    , 2.74 ,      72 ,2026-10-28
-Grapes       ,Fruits       , 1.5  ,      11 ,2024-06-22
-Fish         ,Meat         , 4.24 ,      43 ,2024-09-23
-Corn         ,Canned Goods , 6.91 ,      99 ,2026-09-22
-Chocolate    ,Snacks       , 4.5  ,     100 ,2025-07-08
-Soda         ,Beverages    , 8.09 ,      82 ,2026-11-25
-Water        ,Beverages    , 6.58 ,      13 ,2025-05-08
-Grapes       ,Fruits       , 1.96 ,      83 ,2025-12-25
-Milk         ,Dairy        , 4.37 ,      26 ,2026-04-19
-Tea          ,Beverages    , 7.05 ,       2 ,2026-12-01
-Corn         ,Canned Goods , 0.72 ,       5 ,2024-11-13
-Cheese       ,Dairy        , 2.73 ,      11 ,2026-06-01
-Nuts         ,Snacks       , 4.85 ,      97 ,2026-12-12
-Tomato Sauce ,Canned Goods , 9.35 ,      87 ,2025-01-22
-Pork         ,Meat         , 6.49 ,      49 ,2024-11-14
-Tomato       ,Vegetables   , 8.49 ,      79 ,2024-12-20
-Cookies      ,Snacks       , 5.08 ,      79 ,2024-12-04
-Potato       ,Vegetables   , 2.88 ,      88 ,2024-08-23
-Milk         ,Dairy        , 6.65 ,      55 ,2026-09-28
-Pork         ,Meat         , 6.88 ,      91 ,2025-12-05
-Cheese       ,Dairy        , 2.24 ,      74 ,2026-07-16
-Pork         ,Meat         , 3.45 ,      23 ,2024-05-17
-Beans        ,Canned Goods , 5.37 ,      99 ,2025-05-20
-Eggs         ,Dairy        , 8.61 ,      67 ,2026-02-03
-Yogurt       ,Dairy        , 2.17 ,      72 ,2026-08-26
-Spinach      ,Vegetables   , 8.22 ,      65 ,2025-06-12
-Cheese       ,Dairy        , 5.9  ,      46 ,2024-08-11
-Turkey       ,Meat         , 2.68 ,      10 ,2024-01-24
-Spinach      ,Vegetables   , 7.86 ,      46 ,2026-01-09
-Water        ,Beverages    , 8.22 ,      89 ,2025-05-17
-Strawberry   ,Fruits       , 7.92 ,      96 ,2026-06-14
-Milk         ,Dairy        , 7.89 ,      23 ,2024-06-17
-Banana       ,Fruits       , 9.11 ,      43 ,2026-01-02
-Tomato Sauce ,Canned Goods , 4.66 ,      86 ,2025-04-21
-Tomato Sauce ,Canned Goods , 1.19 ,      74 ,2026-05-10
-Banana       ,Fruits       , 5.21 ,      33 ,2026-04-10
-Strawberry   ,Fruits       , 9.91 ,       7 ,2026-11-06
-Tea          ,Beverages    , 1.48 ,      58 ,2024-04-02
-Soda         ,Beverages    , 5.59 ,      98 ,2024-07-07
-Tomato       ,Vegetables   , 4.3  ,      37 ,2025-12-26
-Broccoli     ,Vegetables   , 7.25 ,      26 ,2026-03-05
-Popcorn      ,Snacks       , 9.11 ,      11 ,2025-01-07
-Chicken      ,Meat         , 3.45 ,      75 ,2026-04-17
-Turkey       ,Meat         , 2.45 ,      75 ,2025-07-21
-Fish         ,Meat         , 2.89 ,      79 ,2025-07-04
-Soup         ,Canned Goods , 7.73 ,      26 ,2025-08-04
-Tomato Sauce ,Canned Goods , 4.55 ,      66 ,2024-02-28
-Cheese       ,Dairy        , 3.29 ,      39 ,2026-05-27
-Butter       ,Dairy        , 8.69 ,      36 ,2025-02-09
-Milk         ,Dairy        , 5.99 ,      69 ,2026-09-01
-Turkey       ,Meat         , 1.85 ,      96 ,2024-03-13
-Cheese       ,Dairy        , 6.36 ,      65 ,2024-04-04
-Tomato       ,Vegetables   , 4.19 ,       1 ,2026-06-26
-Carrot       ,Vegetables   , 1.12 ,      89 ,2026-09-20
-Chocolate    ,Snacks       , 4.48 ,      60 ,2026-08-25
-Chicken      ,Meat         , 0.89 ,       4 ,2026-10-10
-Orange       ,Fruits       , 3.07 ,      80 ,2026-03-10
-Coffee       ,Beverages    , 5.3  ,      33 ,2026-12-04
-Orange       ,Fruits       , 6.57 ,      19 ,2024-10-08
-Chicken      ,Meat         , 6.68 ,      48 ,2026-10-09
-Butter       ,Dairy        , 8.15 ,      48 ,2026-05-05
-Coffee       ,Beverages    , 6.63 ,      92 ,2026-06-08
-Butter       ,Dairy        , 4.1  ,      66 ,2026-11-26
-Popcorn      ,Snacks       , 1.26 ,      24 ,2026-09-26
-Spinach      ,Vegetables   , 8.2  ,       7 ,2024-06-27
-Corn         ,Canned Goods , 2.27 ,       1 ,2025-07-19
-Banana       ,Fruits       , 5.82 ,      78 ,2024-02-14
-Eggs         ,Dairy        , 9.77 ,      34 ,2024-10-27
-Carrot       ,Vegetables   , 8.14 ,      40 ,2025-11-25
-Broccoli     ,Vegetables   , 8.21 ,      87 ,2025-03-16
-Chips        ,Snacks       , 8.6  ,      50 ,2026-02-24
-Turkey       ,Meat         , 9.19 ,      33 ,2026-02-06
-Turkey       ,Meat         , 2.06 ,      80 ,2026-11-28
-Cookies      ,Snacks       , 8.19 ,      59 ,2024-03-27
-Nuts         ,Snacks       , 7.59 ,      44 ,2024-06-15
-Tomato Sauce ,Canned Goods , 9.59 ,      63 ,2026-02-10
-Potato       ,Vegetables   , 1.76 ,      67 ,2026-02-06
-Beef         ,Meat         , 0.79 ,      86 ,2026-08-01
-Tea          ,Beverages    , 0.66 ,       2 ,2025-02-05
-Banana       ,Fruits       , 0.4  ,       3 ,2024-09-16
-Broccoli     ,Vegetables   , 4.9  ,      11 ,2025-09-04
-Potato       ,Vegetables   , 4.85 ,      83 ,2026-08-21
-Carrot       ,Vegetables   , 0.62 ,      84 ,2025-02-04
-Spinach      ,Vegetables   , 8.95 ,      59 ,2025-10-03
-Popcorn      ,Snacks       , 2.33 ,      67 ,2025-08-19
-Tomato Sauce ,Canned Goods , 0.57 ,       7 ,2026-12-13
-Cheese       ,Dairy        , 7.33 ,      96 ,2025-02-16
-Chocolate    ,Snacks       , 7.13 ,      91 ,2026-12-16
-Corn         ,Canned Goods , 2.25 ,      86 ,2024-05-05
-Beans        ,Canned Goods , 6.27 ,      52 ,2024-04-05
-Butter       ,Dairy        , 6.66 ,      21 ,2025-08-15
-Cheese       ,Dairy        , 2.35 ,      59 ,2025-06-20
-Banana       ,Fruits       , 6.46 ,      69 ,2026-08-23
-Soda         ,Beverages    , 8.42 ,      93 ,2026-06-08
-Cheese       ,Dairy        , 3.31 ,      58 ,2024-02-05
-Tea          ,Beverages    , 4.25 ,      54 ,2026-03-11
-Pork         ,Meat         , 9.21 ,      26 ,2024-02-07
-Tomato       ,Vegetables   , 0.67 ,      88 ,2026-02-27
-Water        ,Beverages    , 9.25 ,       3 ,2024-11-01
-Chocolate    ,Snacks       , 7.51 ,      53 ,2025-10-04
-Juice        ,Beverages    , 9.21 ,      43 ,2024-01-07
-Beef         ,Meat         , 3.08 ,     100 ,2026-03-03
-Milk         ,Dairy        , 8.17 ,      89 ,2025-03-21
-Orange       ,Fruits       , 7.65 ,      75 ,2025-07-17
-Coffee       ,Beverages    , 2.7  ,      21 ,2025-04-05
-Fish         ,Meat         , 3.87 ,      35 ,2026-08-28
-Water        ,Beverages    , 8.45 ,      67 ,2024-03-07
+Name,Category,Price,Quantity,Expiration Date
+Pork,Meat,3.44,8,2026-01-16
+Banana,Fruits,5.69,79,2025-12-05
+Potato,Vegetables,8.13,10,2026-01-28
+Orange,Fruits,0.91,45,2026-10-26
+Yogurt,Dairy,2.92,59,2026-07-27
+Soup,Canned Goods,1.02,4,2026-11-10
+Tuna,Canned Goods,9.6,92,2026-02-28
+Chocolate,Snacks,1.33,56,2026-06-11
+Broccoli,Vegetables,2.0,21,2025-09-12
+Carrot,Vegetables,8.19,52,2026-11-12
+Tomato Sauce,Canned Goods,6.15,60,2025-07-18
+Coffee,Beverages,6.55,45,2026-12-20
+Beef,Meat,2.12,46,2025-01-14
+Fish,Meat,5.55,26,2026-05-15
+Orange,Fruits,0.58,83,2026-05-12
+Banana,Fruits,8.15,1,2026-03-24
+Spinach,Vegetables,3.02,36,2025-04-27
+Butter,Dairy,7.07,91,2025-03-21
+Corn,Canned Goods,8.34,30,2026-07-21
+Pork,Meat,6.44,27,2024-02-22
+Cheese,Dairy,4.19,82,2025-06-04
+Chicken,Meat,4.67,89,2026-01-06
+Fish,Meat,5.16,81,2024-11-11
+Spinach,Vegetables,8.47,82,2025-10-24
+Soup,Canned Goods,7.95,97,2025-01-25
+Beans,Canned Goods,9.72,35,2025-01-12
+Broccoli,Vegetables,5.23,15,2026-04-10
+Eggs,Dairy,8.36,25,2026-05-24
+Coffee,Beverages,6.48,87,2025-12-06
+Coffee,Beverages,2.58,26,2026-05-24
+Yogurt,Dairy,4.21,29,2026-09-23
+Chicken,Meat,0.49,87,2025-08-08
+Pork,Meat,7.86,30,2025-12-16
+Pork,Meat,8.0,79,2024-07-14
+Juice,Beverages,9.04,77,2026-02-17
+Tuna,Canned Goods,0.7,62,2025-08-13
+Nuts,Snacks,1.33,39,2024-12-08
+Orange,Fruits,0.95,55,2025-03-10
+Nuts,Snacks,2.75,98,2026-05-16
+Butter,Dairy,9.19,86,2024-10-22
+Tea,Beverages,8.37,87,2025-07-14
+Tuna,Canned Goods,1.87,25,2026-07-24
+Chips,Snacks,4.24,31,2025-09-09
+Orange,Fruits,1.92,58,2024-04-28
+Chocolate,Snacks,7.28,69,2025-02-03
+Chocolate,Snacks,2.17,58,2026-05-09
+Pork,Meat,1.47,88,2026-10-13
+Potato,Vegetables,8.38,70,2025-02-12
+Cheese,Dairy,5.26,80,2026-06-25
+Banana,Fruits,2.81,13,2026-05-11
+Soda,Beverages,6.02,73,2026-11-09
+Tomato Sauce,Canned Goods,0.75,10,2026-01-17
+Fish,Meat,9.65,4,2026-10-14
+Tomato Sauce,Canned Goods,6.09,22,2026-06-19
+Eggs,Dairy,0.54,28,2026-03-08
+Grapes,Fruits,1.2,99,2025-11-11
+Popcorn,Snacks,5.0,22,2026-03-21
+Chicken,Meat,1.97,22,2025-06-03
+Chocolate,Snacks,9.87,54,2024-02-16
+Tomato Sauce,Canned Goods,9.76,16,2025-06-24
+Eggs,Dairy,5.27,85,2024-07-28
+Potato,Vegetables,9.88,29,2025-07-27
+Tuna,Canned Goods,1.26,27,2025-02-06
+Fish,Meat,5.41,51,2026-05-26
+Cookies,Snacks,0.9,65,2026-02-04
+Broccoli,Vegetables,1.99,95,2024-03-11
+Beef,Meat,5.38,90,2026-02-25
+Yogurt,Dairy,4.6,28,2026-12-26
+Fish,Meat,9.37,59,2026-02-09
+Tea,Beverages,2.01,65,2025-12-24
+Juice,Beverages,6.54,43,2024-08-19
+Coffee,Beverages,8.67,80,2025-10-07
+Beef,Meat,9.92,34,2024-02-13
+Fish,Meat,7.28,59,2025-06-17
+Water,Beverages,4.55,62,2024-06-09
+Fish,Meat,6.36,63,2024-04-13
+Chips,Snacks,1.21,42,2024-02-21
+Chocolate,Snacks,5.03,19,2025-12-23
+Tuna,Canned Goods,7.84,95,2025-02-18
+Spinach,Vegetables,6.83,45,2024-04-08
+Tomato,Vegetables,5.15,65,2025-04-17
+Eggs,Dairy,0.94,50,2025-06-26
+Milk,Dairy,2.7,9,2025-04-23
+Eggs,Dairy,3.08,83,2025-06-15
+Yogurt,Dairy,6.84,69,2026-01-07
+Tomato Sauce,Canned Goods,2.94,76,2025-07-03
+Soup,Canned Goods,4.17,97,2024-07-05
+Coffee,Beverages,5.85,3,2024-04-28
+Banana,Fruits,6.3,68,2024-05-14
+Tea,Beverages,5.62,90,2025-05-05
+Butter,Dairy,2.64,98,2026-10-19
+Cheese,Dairy,2.35,86,2026-03-20
+Turkey,Meat,4.9,21,2024-02-11
+Juice,Beverages,2.74,72,2026-10-28
+Grapes,Fruits,1.5,11,2024-06-22
+Fish,Meat,4.24,43,2024-09-23
+Corn,Canned Goods,6.91,99,2026-09-22
+Chocolate,Snacks,4.5,100,2025-07-08
+Soda,Beverages,8.09,82,2026-11-25
+Water,Beverages,6.58,13,2025-05-08
+Grapes,Fruits,1.96,83,2025-12-25
+Milk,Dairy,4.37,26,2026-04-19
+Tea,Beverages,7.05,2,2026-12-01
+Corn,Canned Goods,0.72,5,2024-11-13
+Cheese,Dairy,2.73,11,2026-06-01
+Nuts,Snacks,4.85,97,2026-12-12
+Tomato Sauce,Canned Goods,9.35,87,2025-01-22
+Pork,Meat,6.49,49,2024-11-14
+Tomato,Vegetables,8.49,79,2024-12-20
+Cookies,Snacks,5.08,79,2024-12-04
+Potato,Vegetables,2.88,88,2024-08-23
+Milk,Dairy,6.65,55,2026-09-28
+Pork,Meat,6.88,91,2025-12-05
+Cheese,Dairy,2.24,74,2026-07-16
+Pork,Meat,3.45,23,2024-05-17
+Beans,Canned Goods,5.37,99,2025-05-20
+Eggs,Dairy,8.61,67,2026-02-03
+Yogurt,Dairy,2.17,72,2026-08-26
+Spinach,Vegetables,8.22,65,2025-06-12
+Cheese,Dairy,5.9,46,2024-08-11
+Turkey,Meat,2.68,10,2024-01-24
+Spinach,Vegetables,7.86,46,2026-01-09
+Water,Beverages,8.22,89,2025-05-17
+Strawberry,Fruits,7.92,96,2026-06-14
+Milk,Dairy,7.89,23,2024-06-17
+Banana,Fruits,9.11,43,2026-01-02
+Tomato Sauce,Canned Goods,4.66,86,2025-04-21
+Tomato Sauce,Canned Goods,1.19,74,2026-05-10
+Banana,Fruits,5.21,33,2026-04-10
+Strawberry,Fruits,9.91,7,2026-11-06
+Tea,Beverages,1.48,58,2024-04-02
+Soda,Beverages,5.59,98,2024-07-07
+Tomato,Vegetables,4.3,37,2025-12-26
+Broccoli,Vegetables,7.25,26,2026-03-05
+Popcorn,Snacks,9.11,11,2025-01-07
+Chicken,Meat,3.45,75,2026-04-17
+Turkey,Meat,2.45,75,2025-07-21
+Fish,Meat,2.89,79,2025-07-04
+Soup,Canned Goods,7.73,26,2025-08-04
+Tomato Sauce,Canned Goods,4.55,66,2024-02-28
+Cheese,Dairy,3.29,39,2026-05-27
+Butter,Dairy,8.69,36,2025-02-09
+Milk,Dairy,5.99,69,2026-09-01
+Turkey,Meat,1.85,96,2024-03-13
+Cheese,Dairy,6.36,65,2024-04-04
+Tomato,Vegetables,4.19,1,2026-06-26
+Carrot,Vegetables,1.12,89,2026-09-20
+Chocolate,Snacks,4.48,60,2026-08-25
+Chicken,Meat,0.89,4,2026-10-10
+Orange,Fruits,3.07,80,2026-03-10
+Coffee,Beverages,5.3,33,2026-12-04
+Orange,Fruits,6.57,19,2024-10-08
+Chicken,Meat,6.68,48,2026-10-09
+Butter,Dairy,8.15,48,2026-05-05
+Coffee,Beverages,6.63,92,2026-06-08
+Butter,Dairy,4.1,66,2026-11-26
+Popcorn,Snacks,1.26,24,2026-09-26
+Spinach,Vegetables,8.2,7,2024-06-27
+Corn,Canned Goods,2.27,1,2025-07-19
+Banana,Fruits,5.82,78,2024-02-14
+Eggs,Dairy,9.77,34,2024-10-27
+Carrot,Vegetables,8.14,40,2025-11-25
+Broccoli,Vegetables,8.21,87,2025-03-16
+Chips,Snacks,8.6,50,2026-02-24
+Turkey,Meat,9.19,33,2026-02-06
+Turkey,Meat,2.06,80,2026-11-28
+Cookies,Snacks,8.19,59,2024-03-27
+Nuts,Snacks,7.59,44,2024-06-15
+Tomato Sauce,Canned Goods,9.59,63,2026-02-10
+Potato,Vegetables,1.76,67,2026-02-06
+Beef,Meat,0.79,86,2026-08-01
+Tea,Beverages,0.66,2,2025-02-05
+Banana,Fruits,0.4,3,2024-09-16
+Broccoli,Vegetables,4.9,11,2025-09-04
+Potato,Vegetables,4.85,83,2026-08-21
+Carrot,Vegetables,0.62,84,2025-02-04
+Spinach,Vegetables,8.95,59,2025-10-03
+Popcorn,Snacks,2.33,67,2025-08-19
+Tomato Sauce,Canned Goods,0.57,7,2026-12-13
+Cheese,Dairy,7.33,96,2025-02-16
+Chocolate,Snacks,7.13,91,2026-12-16
+Corn,Canned Goods,2.25,86,2024-05-05
+Beans,Canned Goods,6.27,52,2024-04-05
+Butter,Dairy,6.66,21,2025-08-15
+Cheese,Dairy,2.35,59,2025-06-20
+Banana,Fruits,6.46,69,2026-08-23
+Soda,Beverages,8.42,93,2026-06-08
+Cheese,Dairy,3.31,58,2024-02-05
+Tea,Beverages,4.25,54,2026-03-11
+Pork,Meat,9.21,26,2024-02-07
+Tomato,Vegetables,0.67,88,2026-02-27
+Water,Beverages,9.25,3,2024-11-01
+Chocolate,Snacks,7.51,53,2025-10-04
+Juice,Beverages,9.21,43,2024-01-07
+Beef,Meat,3.08,100,2026-03-03
+Milk,Dairy,8.17,89,2025-03-21
+Orange,Fruits,7.65,75,2025-07-17
+Coffee,Beverages,2.7,21,2025-04-05
+Fish,Meat,3.87,35,2026-08-28
+Water,Beverages,8.45,67,2024-03-07

@@ -1,21 +1,20 @@
-from grocery import write_grocery_items
-import csv
+from rich.console import Console
+from grocery import load_grocery_items
 
-# Global variable to store grocery items
-grocery_items = []
+console = Console()
+grocery_items = load_grocery_items()
 
-# Function to search for a specific product
+
 def search_product(product_name):
     found = False
     for item in grocery_items:
         if item["Name"].lower() == product_name.lower():
-            print(f"\nProduct Found:")
-            print(f"Name: {item['Name']}")
-            print(f"Category: {item['Category']}")
-            print(f"Quantity: {item['Quantity']}")
-            print(f"Price: ${item['Price']}")
+            console.print("\n[bold]Product Found:[/bold]")
+            console.print(f"[bold]Name:[/bold] {item['Name']}")
+            console.print(f"[bold]Category:[/bold] {item['Category']}")
+            console.print(f"[bold]Quantity:[/bold] {item['Quantity']}")
+            console.print(f"[bold]Price:[/bold] ${item['Price']}")
             found = True
             break
     if not found:
-        print("\nProduct not found.")
-
+        console.print("\nProduct not found.")

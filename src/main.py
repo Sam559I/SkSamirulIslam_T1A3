@@ -1,11 +1,3 @@
-"""
-Grocery Tracker App
-
-This Python script implements a terminal-based grocery tracking application.
-Users can display current stock, search for specific products, order groceries, track
-expired perishable food items, and compare prices.
-
-"""
 import datetime
 from rich.console import Console
 from grocery import load_grocery_items, display_current_stock, adjust_groceries
@@ -26,7 +18,7 @@ console = Console()
 
 def track_expiring_soon():
     today = datetime.date.today()
-    six_months_from_now = today + datetime.timedelta(days=30 * 6)
+    one_month_from_now = today + datetime.timedelta(days=30)
 
     # Load grocery items
     grocery_items = load_grocery_items()
@@ -37,11 +29,11 @@ def track_expiring_soon():
             expiration_date = datetime.datetime.strptime(
                 item["Expiration Date"], "%d/%m/%Y"
             ).date()
-            if today <= expiration_date <= six_months_from_now:
+            if today <= expiration_date <= one_month_from_now:
                 expiring_items.append(item)
 
     if expiring_items:
-        console.print("\nItems Expiring in the Next 6 Months:")
+        console.print("\nItems Expiring in the Next Month:")
         for item in expiring_items:
             console.print(f"{item['Name']} - Expires on {item['Expiration Date']}")
     else:
@@ -74,7 +66,6 @@ def compare_prices_for_product():
 
     console.print(f"\nPrice Comparison for '{product_name}' with Marketplaces:")
     for item in grocery_items:
-
         price1 = marketplace_prices1.get(item["Name"], "Not Available")
         price2 = marketplace_prices2.get(item["Name"], "Not Available")
         price3 = marketplace_prices3.get(item["Name"], "Not Available")
