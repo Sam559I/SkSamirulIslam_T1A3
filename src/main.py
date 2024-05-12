@@ -6,12 +6,11 @@ Users can display current stock, search for specific products, order groceries, 
 expired perishable food items, and compare prices.
 
 """
-from market_function import place_order 
+from search import search_product
 import csv
-from current_stock_function import (
+from grocery import (
     load_grocery_items,
     display_current_stock,
-    search_product,
     quantity_update_groceries,
     display_items_by_category,
     track_expiring_soon,
