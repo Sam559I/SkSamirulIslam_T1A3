@@ -10,7 +10,6 @@ Potato       ,Vegetables   , 6.12 ,      10 ,24/06/2024
 Coffee-Beans ,Beverages    , 4.48 ,      24 ,22/11/2026
 Broccoli     ,Vegetables   , 5.53 ,      15 ,24/05/2024
 Eggs         ,Dairy        , 1.82 ,       1 ,20/05/2024
-Fish         ,Meat         , 5.67 ,       2 ,25/05/2024
 Chips        ,Snacks       , 5.59 ,       4 ,04/05/2025
 Chocolate    ,Snacks       , 2.91 ,       3 ,08/07/2025
 Chicken      ,Meat         ,12.3  ,       5 ,18/06/2024
@@ -69,7 +68,6 @@ Beef         ,Meat         , 1.36 ,      60 ,14/05/2025
 Broccoli     ,Vegetables   , 9.62 ,      86 ,26/01/2026
 Orange       ,Fruits       , 1.51 ,      49 ,23/08/2024
 Strawberry   ,Fruits       , 0.58 ,      66 ,20/07/2024
-Fish         ,Meat         , 9.07 ,      43 ,18/10/2024
 Tomato Sauce ,Canned Goods , 5.27 ,      49 ,16/12/2026
 Strawberry   ,Fruits       , 2.85 ,      79 ,15/05/2025
 Butter       ,Dairy        , 7.65 ,      90 ,20/02/2026
@@ -78,12 +76,9 @@ Cookies      ,Snacks       , 2.04 ,      36 ,23/01/2026
 Pork         ,Meat         , 3.42 ,      22 ,09/08/2024
 Potato       ,Vegetables   , 0.88 ,      31 ,24/02/2025
 Juice        ,Beverages    , 6.4  ,      82 ,16/08/2024
-Fish         ,Meat         , 9.38 ,      36 ,06/05/2026
 Milk         ,Dairy        , 2.3  ,      26 ,24/02/2024
 Tea          ,Beverages    , 1.5  ,      33 ,27/09/2025
-Fish         ,Meat         , 6.3  ,      89 ,08/12/2026
 Orange       ,Fruits       , 6.31 ,      64 ,10/11/2024
-Fish         ,Meat         , 7.91 ,      90 ,26/12/2026
 Soup         ,Canned Goods , 6.46 ,      60 ,21/01/2024
 Eggs         ,Dairy        , 2.97 ,      23 ,11/01/2024
 Chips        ,Snacks       , 6.19 ,      21 ,07/04/2026
@@ -102,7 +97,6 @@ Cookies      ,Snacks       , 5.94 ,      29 ,05/03/2026
 Strawberry   ,Fruits       , 5.87 ,      70 ,13/05/2026
 Apple        ,Fruits       , 4.18 ,      51 ,14/11/2026
 Grapes       ,Fruits       , 1.84 ,      59 ,25/02/2025
-Fish         ,Meat         , 1.73 ,      18 ,16/09/2025
 Tea          ,Beverages    , 5.66 ,      72 ,05/02/2024
 Chips        ,Snacks       , 8.11 ,       6 ,04/06/2024
 Butter       ,Dairy        , 8.66 ,      60 ,14/06/2026

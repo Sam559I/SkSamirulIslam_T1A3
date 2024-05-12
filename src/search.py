@@ -1,4 +1,4 @@
-from SkSamirulIslam_T1A3.src.grocery import write_grocery_items
+from grocery import write_grocery_items
 import csv
 
 # Global variable to store grocery items
