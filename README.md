@@ -1,6 +1,7 @@
 # SkSamirulIslam_T1A3
 
 # Python Grocery Tacker
+This application has been created to support tracking of your groceries. Below we will go through an overview of the features this application offers.
 
 ## Link to github
 https://github.com/Sam559I/SkSamirulIslam_T1A3
@@ -9,7 +10,13 @@ https://github.com/Sam559I/SkSamirulIslam_T1A3
 PEP8  
 https://peps.python.org/pep-0008/
 
-## Link to Trello 
-https://trello.com/b/rtO6jHFv/t1a3-terminal-app
+## Trello 
+
+
 ## Map
-[map](docs/Map.png)
+![Map](docs/Map.png)
+
+## Features
+
+#### Display
+The display 

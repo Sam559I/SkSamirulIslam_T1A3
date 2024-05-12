@@ -5,6 +5,16 @@ from search import search_product
 import csv
 from rich.table import Table
 import os
+from art import *
+from color50 import rgb, constants
+
+# Heading for terminal display
+my_color = rgb(100, 250, 100)
+Heading = text2art("The  Grocery Tracker")
+
+Goodbye1 = text2art("Thank you for using")
+Goodbye2 = text2art("the Grocery Tracker App. Goodbye!")
+
 
 # directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -138,6 +148,7 @@ def main():
     load_grocery_items()
     while True:
         console.print("\n")
+        print(my_color + Heading + constants.RESET)
         console.print("[bold green]Welcome to the Grocery Tracker App![/bold green]")
         console.print("Menu Options:")
         console.print("1. Display Current Stock")
@@ -167,7 +178,7 @@ def main():
             elif choice == 7:
                 place_order()
             elif choice == 8:
-                console.print("\nThank you for using the Grocery Tracker App. Goodbye!")
+                print(my_color + Goodbye1 + Goodbye2 + constants.RESET)
                 break
             else:
                 console.print("Invalid choice. Please try again.")
